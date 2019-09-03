@@ -1,11 +1,11 @@
 # Simple Arcs
-This mod adds arc-nodes to Minetest as well as arcs for inner and outer corners.
-Note this is a fork of PEAK's mod Simple Arcs (pkarcs) https://forum.minetest.net/viewtopic.php?f=11&t=14541 which adds arched doors made to work specifically with the mod.
+This modpack includes 3 mods: 
 
-## Dependencies
-- default (included in minetest_game)
-- doors (included in minetest_game)
-- mesecons (**optional dependency!**)
+- pkarcs
+- pkarcs_doors
+- pkarcs_doors3
+
+Note this is a fork of PEAK's mod Simple Arcs (pkarcs) https://forum.minetest.net/viewtopic.php?f=11&t=14541 which adds arched doors made to work specifically with the mod.
 
 ## Requirements
 Works with MT/MTG 5.0.0+.
@@ -16,8 +16,10 @@ Click [here](https://github.com/TumeniNodes/pkarcs/blob/master/LICENSE) to see t
 ## Installation
 - Unzip the archive, rename the folder to pkarcs and
 place it in .. minetest/mods/
+
 - GNU/Linux: If you use a system-wide installation place
     it in ~/.minetest/mods/.
+
 - If you only want this to be used in a single world, place
     the folder in .. worldmods/ in your world directory.
 
