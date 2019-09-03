@@ -7,7 +7,7 @@ Note this is a fork of PEAK's mod Simple Arcs (pkarcs) https://forum.minetest.ne
 - doors (included in minetest_game)
 - mesecons (**optional dependency!**)
 
-## Requierments
+## Requirements
 Works with MT/MTG 5.0.0+.
 
 ## License
@@ -85,5 +85,5 @@ If you know how to fix an issue, or want something to be added, consider opening
 - default:aspen_wood
 
 ## Additional info
-If you want to get additional info about this fork, go to the [Minetest Forums](https://forum.minetest.net/viewtopic.php?f=9&t=22839).    
+If you want to get additional info about this fork, go to the [Minetest Forums](https://forum.minetest.net/viewtopic.php?f=9&t=22839).  
 If you want to go to the original topic of the mod, click [here](https://forum.minetest.net/viewtopic.php?f=11&t=14541).
