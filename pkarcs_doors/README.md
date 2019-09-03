@@ -4,6 +4,7 @@ This mod adds arched doors to Minetest Game to work with PEAK's mod Simple Arcs 
 ## Dependencies
 - default (included in minetest_game)
 - doors (included in minetest_game)
+- xpanes (included in minetes_game)
 - mesecons (**optional dependency!**)
 
 ## Requierments

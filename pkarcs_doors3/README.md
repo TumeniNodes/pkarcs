@@ -4,6 +4,7 @@ This mod adds 3-node-high arched doors to Minetest Game to work specifically wit
 ## Dependencies
 - default (included in minetest_game)
 - doors (included in minetest_game)
+- xpanes (included in minetest_game)
 - mesecons (**optional dependency!**)
 
 ## Requierments
