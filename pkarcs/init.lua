@@ -342,3 +342,46 @@ pkarcs.register_node("default:pine_wood")
 pkarcs.register_node("default:acacia_wood")
 pkarcs.register_node("default:aspen_wood")
 
+
+--
+-- Support for Darkage (Addi's fork)
+--
+
+if minetest.get_modpath("darkage") then
+   pkarcs.register_node("darkage:adobe")
+   pkarcs.register_node("darkage:basalt")
+   pkarcs.register_node("darkage:basalt_block")
+   pkarcs.register_node("darkage:basalt_brick")
+   pkarcs.register_node("darkage:chalked_bricks")
+   pkarcs.register_node("darkage:gneiss")
+   pkarcs.register_node("darkage:gneiss_block")
+   pkarcs.register_node("darkage:gneiss_brick")
+   pkarcs.register_node("darkage:marble")
+   pkarcs.register_node("darkage:marble_tile")
+   pkarcs.register_node("darkage:old_tuff_bricks")
+   pkarcs.register_node("darkage:ors")
+   pkarcs.register_node("darkage:ors_block")
+   pkarcs.register_node("darkage:ors_brick")
+   pkarcs.register_node("darkage:rhyolitic_tuff")
+   pkarcs.register_node("darkage:rhyolitic_tuff_bricks")
+   pkarcs.register_node("darkage:schist")
+   pkarcs.register_node("darkage:slate")
+   pkarcs.register_node("darkage:slate_block")
+   pkarcs.register_node("darkage:slate_brick")
+   pkarcs.register_node("darkage:slate_tile")
+   pkarcs.register_node("darkage:stone_brick")
+   pkarcs.register_node("darkage:tuff")
+   pkarcs.register_node("darkage:tuff_bricks")
+end
+
+
+--
+-- Support for Castle Masonry
+--
+
+if minetest.get_modpath("castle_masonry") then
+   pkarcs.register_node("castle_masonry:pavement_brick")
+   pkarcs.register_node("castle_masonry:rubble")
+   pkarcs.register_node("castle_masonry:stonewall")
+   pkarcs.register_node("castle_masonry:stonewall_corner")
+end
