@@ -176,7 +176,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			pkarcs_doors3.open(pos, node, name, "L", door_sound)
 		end,
 	}
-	
+
 	if minetest.get_modpath("mesecons") then
 		Ldoor_def.mesecons = {
 			effector = {
@@ -187,7 +187,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			}
 		}
 	end
-	
+
 	minetest.register_node(":pkarcs_doors3:" ..name.. "_Ldoor", Ldoor_def)
 
 	local Ldoor_open_def = {
@@ -220,8 +220,8 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			pkarcs_doors3.close(pos, node, name, "L", door_sound)
 		end,
 	}
-	
-		if minetest.get_modpath("mesecons") then
+
+	if minetest.get_modpath("mesecons") then
 		Ldoor_open_def.mesecons = {
 			effector = {
 				action_off = function(pos, node)
@@ -231,7 +231,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			}
 		}
 	end
-	
+
 	minetest.register_node(":pkarcs_doors3:" ..name.. "_Ldoor_open", Ldoor_open_def)
 
 	local Rdoor_def = {
@@ -276,7 +276,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			}
 		}
 	end
-	
+
 	minetest.register_node(":pkarcs_doors3:" ..name.. "_Rdoor", Rdoor_def)
 
 
@@ -310,8 +310,8 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			pkarcs_doors3.close(pos, node, name, "R", door_sound)
 		end,
 	}
-	
-		if minetest.get_modpath("mesecons") then
+
+	if minetest.get_modpath("mesecons") then
 		Rdoor_open_def.mesecons = {
 			effector = {
 				action_off = function(pos, node)
@@ -321,7 +321,7 @@ for _, row in ipairs(pkarcs_doors3.door) do
 			}
 		}
 	end
-	
+
 	minetest.register_node(":pkarcs_doors3:" ..name.. "_Rdoor_open", Rdoor_open_def)
 
 
